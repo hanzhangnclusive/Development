@@ -1,0 +1,241 @@
+body,html {padding: 0;margin: 0;background: #000 url(/wp-content/themes/twentytwelve/images/bg/1.jpg) top center no-repeat;}
+.clear{width:100%;height:0;margin:0;padding:0;clear:both;}
+
+.container{width: 970px;height: auto;margin: 0 auto;background: #000;overflow: hidden;}
+.container .clear { width: 970px;height: 0;clear: both;}
+
+/*-------------------------------------- Header ------------------------------------------*/
+.container .header {width: 970px;height: 110px;background: url(/wp-content/themes/twentytwelve/images/textures/dark.png) repeat; }
+.container .header .logo {width: 150px;height: 110px;float: left;background: url(/wp-content/themes/twentytwelve/images/logo/logo.png) top center no-repeat;}
+.container .header .menu_btn {width: auto;height: 100px; float: left;padding: 0 19px;margin: 0 3px;background: url(/wp-content/themes/twentytwelve/images/textures/dark.png) repeat;line-height: 150px; font-family: 'bebasregular'; font-weight: normal; font-style: normal;	color: #dfdfdf;	font-size: 16px;}
+.container .header .menu_btn:hover {background: #000;color:#fff;	cursor: pointer;border-bottom: 3px #c84b27 solid;}
+.container .content {width: 970px;height: auto;	padding-bottom:30px;margin:  0;	background: url(/wp-content/themes/twentytwelve/images/textures/white.png) repeat;}
+.container .instagram_title {width: 970px;height: 40px;	margin-top: 10px; font-family: 'bebasregular'; font-weight: normal; font-style: normal;	color: #fff;font-size: 16px;line-height: 40px;text-indent: 20px;background: url(/wp-content/themes/twentytwelve/images/textures/dots.png);}
+
+/*--------------------------------------Footer------------------------------------------*/
+.container .footer {width: 940px;height: 150px;padding: 15px;background: url(/wp-content/themes/twentytwelve/images/textures/dark.png) repeat;}
+.container .footer .left {width: 600px;height: 150px;float: left;}
+.container .footer .right {width: 120px;height: 150px;float: right;}
+.container .footer .right .menu {width:100px;height:30px;margin-bottom: 6px;padding:0;float:right;	background: #000; float:right;font-family: 'bebasregular';font-size:16px;color:#fff;text-align:center;line-height:30px;cursor:pointer;border-bottom: 3px #000 solid;}
+.container .footer .right .menu:hover{background:#000;border-bottom: 3px #c84b27 solid;}
+.container .footer .left  .title{ width: 970px;height: 30px;	margin-bottom: 15px; font-family: 'proxima_nova_black'; font-weight: normal; font-style: normal;text-transform: uppercase;text-align: left;font-size: 36px;color: #fff;}
+.container .credits { width: 970px;	height: 30px;	background: #c84b27;}
+.container .credits .copyright{width: auto;	height: 30px;float: left;	background: #c84b27;	font-family: Verdana, Geneva, sans-serif;font-size: 10px;font-style: normal;line-height: 30px;color: #000;padding-left: 15px;}
+.container .credits .site_credits{ width: auto;height: 30px;float: right;	background: #c84b27;font-family: Verdana, Geneva, sans-serif;font-size: 10px;font-style: normal;line-height: 30px;padding-right: 15px;}
+.container .credits .site_credits:hover{color: #4e4e4e;cursor: pointer;}
+
+/*-------------------------------------- Home - Right ------------------------------------------*/
+.content_right {width:340px;height:auto;float:left;}
+.content_right_box {width:320px;height:280px;margin:10px;background: #ccc; font-family: 'proxima_nova_black'; font-weight: normal;font-style: normal;text-transform: uppercase;font-size: 60px;	line-height: 50px;	position: relative;}
+.content_right_box .social_youtube { width: 50px; height: 50px;	float: right;background: #000000;margin-left: 10px;position: absolute;bottom: 18px;right: 20px; -webkit-transition-property:background; 
+ -webkit-transition-duration: 0.2s, 0.2s; -webkit-transition-timing-function: linear, ease-in;-moz-transition-property:background; -moz-transition-duration:0.2s; -moz-transition-timing-function: linear, ease-in; -o-transition-property:background; -o-transition-duration:0.2s; -o-transition-timing-function: linear, ease-in;}
+.content_right_box .social_youtube:hover {background: #AF2B26;cursor:pointer;-webkit-transition-property:background; -webkit-transition-duration: 0.2s, 0.2s;-webkit-transition-timing-function: linear, ease-in; -moz-transition-property:background;-moz-transition-duration:0.2s; -moz-transition-timing-function: linear, ease-in;-o-transition-property:background; -o-transition-duration:0.2s; -o-transition-timing-function: linear, ease-in;}
+.content_right_box .social_facebook {width: 50px; height: 50px;float: right;background: #000000;margin-left: 10px;position: absolute;position: absolute;bottom: 18px;right: 90px; -webkit-transition-property:background;-webkit-transition-duration: 0.2s, 0.2s;-webkit-transition-timing-function: linear, ease-in;-moz-transition-property:background;-moz-transition-duration:0.2s; -moz-transition-timing-function: linear, ease-in;-o-transition-property:background;-o-transition-duration:0.2s;-o-transition-timing-function: linear, ease-in;}
+.content_right_box .social_facebook:hover {	background: #3B5998;cursor: pointer;-webkit-transition-property:background;-webkit-transition-duration: 0.2s, 0.2s;-webkit-transition-timing-function: linear, ease-in;-moz-transition-property:background;-moz-transition-duration:0.2s;-moz-transition-timing-function: linear, ease-in;-o-transition-property:background;-o-transition-duration:0.2s;-o-transition-timing-function: linear, ease-in;}
+.content_right_box .social_twitter {width: 50px;height: 50px;float: right;background: #000000;margin-left: 10px;position: absolute;	bottom: 18px;right: 160px; -webkit-transition-property:background;-webkit-transition-duration: 0.2s, 0.2s;-webkit-transition-timing-function: linear, ease-in;-moz-transition-property:background;-moz-transition-duration:0.2s;-moz-transition-timing-function: linear, ease-in;  -o-transition-property:background;-o-transition-duration:0.2s;-o-transition-timing-function: linear, ease-in;}
+.content_right_box .social_twitter:hover {background: #00aced;	cursor: pointer;-webkit-transition-property:background;-webkit-transition-duration: 0.2s, 0.2s; -webkit-transition-timing-function: linear, ease-in; -moz-transition-property:background; -moz-transition-duration:0.2s; -moz-transition-timing-function: linear, ease-in; -o-transition-property:background;-o-transition-duration:0.2s;-o-transition-timing-function: linear, ease-in;}
+
+/*-------------------------------------- Home - Left ------------------------------------------*/
+.content_left {width:630px;height:auto;float:left;background:#ededed;overflow:hidden;}
+.wrapper{width:630px;height:640px;padding:0;clear:both;}
+.wrapper_top{width:630px;height:60px;margin:0;padding:0;}
+.wrapper_button{width:100px;height:40px;margin:10px 8px 25px 0;padding:0;float:right;	background: url(/wp-content/themes/twentytwelve/images/textures/dark.png) repeat;font-family: 'bebasregular';font-size:16px;color:#fff;text-align:center;line-height:40px;cursor:pointer;}
+.wrapper_button:hover{background:#000;	border-bottom: 3px #c84b27 solid;}
+.wrapper_button_active{width:100px;height:40px;margin:10px 8px 25px 0;padding:0;float:right;background:#000;font-family: 'bebasregular';font-size:16px;color:#fff;text-align:center;line-height:40px;border-bottom: 3px #c84b27 solid;}
+.wrapper_btm{width:630px;height:560px;margin:0;padding:0;position:relative;}
+.wrapper_content{width:630px;height:560px;margin:0;padding:0;position:absolute;top:0;left:0;color:rgba(0,0,0,0.5);overflow:hidden;}
+.wrapper_button_header {padding:10px 20px;width:265px;height:40px;float:left;font-size:28px;font-family: 'bebasregular';}
+
+/*--------------------------------------------------------------------Video Section------------------------------------------------------------------------*/
+.video {width:612px;height:330px;background:#fff;margin:0 0 0 10px;position:relative;}
+.video_inside {width:612px;height:330px;margin:0;padding:0;position:absolute;top:0;left:0;opacity:0}
+#video_play {width:612px;height:330px;margin:0;padding:0;background:url(/images/video/play_video.jpg) no-repeat center center;opacity:1}
+#video_play:hover {cursor:pointer}
+.video_text {width:100%;height:210px;background:#fff;padding: 15px;position: relative;}
+.video_text .video_text_link {width:200px;;height:20px;margin:0 0 10px 10px;padding-bottom:10px;position: absolute; bottom:0;left: 0;color: #C84B27;font-family: Verdana, Geneva, sans-serif;font-size: 12px;font-style: normal;font-weight: normal;line-height: 20px;padding-top: 0px;text-decoration: underline;}
+.video_text_title {width:592px;height:30px;font-family: proxima_nova_black;color: #C84B27;font-size: 26px;line-height: 30px; margin-top: 10px;}
+.video_text_copy {width:592px;height:auto;font-family: Verdana, Geneva, sans-serif;font-size: 12px; line-height: 20px;color: #565656;margin-top: 10px;}
+/*--------------------------------------------------------------------News Section------------------------------------------------------------------------*/
+.news {width:612px;height:130px;background:#fff;margin-left:10px;margin-bottom:10px; font-family: 'bebasregular';}
+.news_img {width:152px;height:130px;background:#000;float:right;overflow:hidden;}
+.news_img img {width:auto;min-height:100%;}
+.news_img:hover {background:#c84b27;cursor:pointer;}
+.news_right {width:450px;height:110px;float:left;padding-top:10px;}
+.news_title {width:420px;height:30px;margin-left:20px;color:#343434;font-size:18px;white-space: nowrap;overflow: hidden;	text-overflow: ellipsis;}
+.news_text {width:410px;height:80px;padding:0 20px;color:#000;font-size:12px;font-family:Verdana, Geneva, sans-serif;line-height:18px;}
+
+/*--------------------------------------------------------------------Gallery Section------------------------------------------------------------------------*/
+.gallery_image  {width:145px;height:130px;background:#000;float:left;margin-left:10px;margin-top:10px;position:relative;}
+.gallery_image_overlay{height:130px;width:145px;position:relative;top:-130px;background:rgba(200,75,39,0.8) url('/wp-content/themes/twentytwelve/images/photos/magnify.png') no-repeat center;opacity:0;-webkit-transition-property:background;-webkit-transition-duration:.2s, .2s;-webkit-transition-timing-function:linear, ease-in;-moz-transition-property:background;-moz-transition-duration:.2s;-moz-transition-timing-function:linear, ease-in;-o-transition-property:background;-o-transition-duration:.2s;-o-transition-timing-function:linear, ease-in}
+.gallery_image_overlay:hover{cursor: pointer;background:rgba(200,75,39,0.8) url('/wp-content/themes/twentytwelve/images/photos/magnify.png') no-repeat center;opacity:1;-webkit-transition-property:background;-webkit-transition-duration:.2s, .2s;-webkit-transition-timing-function:linear, ease-in;-moz-transition-property:background;-moz-transition-duration:.2s;-moz-transition-timing-function:linear, ease-in;-o-transition-property:background;-o-transition-duration:.2s;-o-transition-timing-function:linear, ease-in}
+
+/*--------------------------------------------------------------------Home Shop------------------------------------------------------------------------*/
+.home_shop_wrapper{width:100%;margin:0;position:relative;float:left;padding:10px;background:#ededed;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.home_shop_header{margin:0 0 10px 0;padding:10px 13px;background:url('/wp-content/themes/twentytwelve/images/textures/dark.png');font-family:'proximanovabold';font-size:28px;color:#fff;text-transform:uppercase;line-height:28px;}
+.home_shop_header span { font-size: 16px; font-style: italic; text-transform: none; }
+.home_shop_more{width:200px;height:28px;float:right;background:url('/wp-content/themes/twentytwelve/images/other/shop_arrow.jpg') right no-repeat;opacity:0.8;font-family:'bebasregular';font-size:16px;word-spacing:3px;color:#fff;}
+.home_shop_more:hover{opacity:1;}
+.home_shop{width:470px;height:280px;padding:15px;background:#fff;margin:0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.home_shop h1{margin:40px 0 0 0;padding:0;font-family:'bebasregular';font-size:24px;word-spacing:3px;color:#000;clear:none;}
+.home_shop p{font-family:Verdana, 'Geneva', sans-serif;font-size:12px;font-weight:200;margin:20px 0;color:#000;display:block;}
+.home_shop img{box-shadow:0 0 10px #ccc;float:left;margin:0 15px 0 0;}
+.home_shop_btn{margin:0;width:auto;padding:8px 25px;position:absolute;bottom:15px;right:115px;float:left;color:#888;background:#eee;font-family:'bebasregular';font-weight:normal;text-decoration:none;font-size:14px;line-height:18px;word-spacing:3px;text-align:center;border:1px solid #ccc;background: #ededed;background: -moz-linear-gradient(top,  #ededed 0%, #c1c1c1 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#c1c1c1));background: -webkit-linear-gradient(top,  #ededed 0%,#c1c1c1 100%);background: -o-linear-gradient(top,  #ededed 0%,#c1c1c1 100%);background: -ms-linear-gradient(top,  #ededed 0%,#c1c1c1 100%);background: linear-gradient(to bottom,  #ededed 0%,#c1c1c1 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#c1c1c1',GradientType=0 );-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-text-shadow:0 1px 0 rgba(255,255,255,0.4);-moz-text-shadow:0 1px 0 rgba(255,255,255,0.4);text-shadow:0 1px 0 rgba(255,255,255,0.4);}
+.home_shop_btn:hover{cursor:pointer;background:#ccc;background: -moz-linear-gradient(top,  #ccc 0%, #e1e1e1 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccc), color-stop(100%,#e1e1e1));background: -webkit-linear-gradient(top,  #ccc 0%,#e1e1e1 100%);background: -o-linear-gradient(top,  #ccc 0%,#e1e1e1 100%);background: -ms-linear-gradient(top,  #ccc 0%,#e1e1e1 100%);background: linear-gradient(to bottom,  #ccc 0%,#e1e1e1 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#e1e1e1',GradientType=0 );}
+.home_shop_btn_right { right: 135px !important; }
+#home_shop_item1{float:left;}
+#home_shop_item2{float:right;}
+
+.home_shop_ribbon {position: relative;color: #fff;display: inline-block;padding: 0px;overflow: hidden;font-family: Arial, sans-serif;font-size:24px;font-weight: 900;} 
+.home_shop_ribbon h4 {display: inline;}
+.home_shop_ribbon h4 span {position: absolute;display: inline-block;right: -50px;box-shadow: 0px 0px 10px rgba(0,0,0,0.2), inset 0px 5px 30px rgba(255,255,255,0.2);text-align: center;text-transform: uppercase;top: 22px;background: #c84b27;width: 150px;padding: 3px 10px;-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-o-transform: rotate(45deg);-ms-transform: rotate(45deg);}
+.home_shop_ribbon sup{margin:2px;font-size:12px;border-bottom:1px solid #fff;}
+
+
+/*--------------------------------------------------------------------Div Slider------------------------------------------------------------------------*/
+
+.ad_slider_background{width:180px;height:640px;position:absolute;top:150px;right:0;margin:0 0 0 485px;z-index:101;}
+.ad_slider{width:160px;height:600px;margin:20px auto 0;padding:10px;background: #fff url('/wp-content/themes/twentytwelve/images/other/ad_slider2.png') no-repeat 10px 10px;-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);-moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);}
+.ad_slider_close{width:100%;height:20px;float:left;}
+.ad_slider_close_btn{width:36px;height:36px;float:left;background: url('/wp-content/themes/twentytwelve/images/other/fb_arrow.png') no-repeat right;z-index:999;margin:20px 0 0 -36px;opacity:0.8}
+.ad_slider_close_btn:hover{cursor:pointer;opacity:1;}
+
+
+
+
+
+/*-------------------------------------------------------------------- Partners ------------------------------------------------------------------------*/
+.container .content .partners{width:955px;height:400px;padding:15px 15px 0 15px;}
+.container .content .partners .partners_clm{width:303px;height:400px;float:left;margin-right:15px}
+.container .content .partners .partners_clm .partners_clm_image{width:300px;height:250px;background:#fff}
+.container .content .partners .partners_clm .partners_clm_text{width:280px;height:130px;background:#fff;padding:10px}
+.container .content .partners .partners_clm .partners_clm_text .partners_clm_text_title{width:280px;height:30px;font-family:bebasregular;font-weight:400;font-style:normal;color:#343434;font-size:20px;line-height:30px}
+.container .content .partners .partners_clm .partners_clm_text .partners_clm_text_copy{width:280px;height:100px;font-family:Verdana, Geneva, sans-serif;font-weight:400;font-style:normal;color:#565656;font-size:12px;line-height:20px;padding-top:5px;position:relative}
+.container .content .partners .partners_clm .partners_clm_text .partners_clm_text_copy .partners_clm_text_copy_date{width:280px;height:auto;position:absolute;bottom:10px;left:0}
+
+/*-------------------------------------------------------------------- Media ------------------------------------------------------------------------*/
+.container .content .media{width:955px;height:auto !important;padding:15px 0px 0 15px;position:relative;}
+.container .content .media .media_top{width:955px;height:40;margin-bottom:20px;}
+.container .content .media .media_top .media_button{width:460px;height:40px;float:left;background:url('/wp-content/themes/twentytwelve/images/textures/dark.png') repeat;font-family: 'bebasregular';font-size:16px;color:#fff;text-align:center;line-height:40px;}
+.container .content .media .media_top .media_button:hover{border-bottom: 3px #c84b27 solid;cursor:pointer;}
+.container .content .media .media_top .media_button_active{width:460px;height:40px;float:left;background:#000;font-family: 'bebasregular';font-size:16px;color:#fff;text-align:center;line-height:40px;border-bottom: 3px #c84b27 solid;}
+.container .content .media .media_top .media_button_active:hover{cursor:pointer;}
+.container .content .media .clear{width:100%;height:1px;clear:both}
+/*-------------------------------------------------------------------- Contact ------------------------------------------------------------------------*/
+.container .content .contact{width:970px;height:auto;background:#fff}
+.container .content .contact .left{width:310px;height:auto;float:left;font-family:Verdana, Geneva, sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:20px;margin:15px;padding:0 15px 15px}
+.container .content .contact .right{width:580px;height:600px;float:left;font-family:bebasregular;font-weight:400;font-style:normal;color:#343434;font-size:20px;line-height:30px;padding:15px 0}
+.container .content .contact .right .form_input{width:280px;height:50px;float:left;background:url(/wp-content/themes/twentytwelve/images/textures/dark.png) repeat;color:#fff;margin-top:15px;text-indent:15px;border:none;outline:none;border-bottom:#000 solid 3px;font-family:Verdana, Geneva, sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:15px;padding-top:0}
+.container .content .contact .right .form_input:hover{color:#fff;border-bottom:3px #000 solid}
+.container .content .contact .right .form_para{width:550px;height:180px;margin-top:15px;float:left;border:none;outline:none;background:url(/wp-content/themes/twentytwelve/images/textures/dark.png) repeat;border-bottom:#000 solid 3px;color:#fff;font-family:Verdana, Geneva, sans-serif;font-size:16px;font-style:normal;font-weight:400;line-height:15px;padding:0 15px 15px}
+.container .content .contact .right .form_para:hover{border-bottom:3px #000 solid;padding-top:15px;color:#fff}
+.container .content .contact .right .submit{background-image:url(http://dev.jontaffer.com.vhost.zerolag.com/images/textures/dark.png);width:580px;height:50px;float:left;border:none;outline:none;font-family:bebasregular;font-weight:400;font-style:normal;color:#fff;font-size:20px;line-height:30px;margin-top:15px}
+.container .content .contact .right .submit:hover{cursor:pointer;height:53px;border-bottom:#C84B27 solid 3px}
+.container .content .contact .clear{width:100%;height:1px;clear:both}
+
+/*-------------------------------------------------------------------- About ------------------------------------------------------------------------*/
+.container .content .about{width:940px;height:auto;background:#f1f1f1;font-family:Verdana, Geneva, sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:20px;padding:15px}
+.container .content .about .title{width:940px;height:40px;font-family:proxima_nova_black;font-weight:400;font-style:normal;color:#c84b27;font-size:26px;line-height:50px;text-shadow:0 -1px 0 #fff;text-transform:uppercase}
+.container .content .about .subtitle{width:940px;height:40px;font-family:bebasregular;font-weight:400;font-style:normal;color:#4e4e4e;font-size:16px;text-shadow:0 -1px 0 #fff;line-height:30px}
+.container .content .about .copy{width:910px;height:auto;background:#fff;font-family:Verdana, Geneva, sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:20px;color:#565656;padding:15px}
+.container .content .about .clear{width:100%;height:1px;clear:both}
+
+/*-------------------------------------------------------------------- Schedule ------------------------------------------------------------------------*/
+.container .content .schedule{width:940px;height:auto;background:url(/wp-content/themes/twentytwelve/images/textures/white.png) repeat;font-family:Verdana, Geneva, sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:20px;padding:15px}
+.container .content .schedule .section{width:940px;height:300px}
+.container .content .schedule .section .title{width:940px;height:40px;font-family:proxima_nova_black;font-weight:400;font-style:normal;color:#c84b27;font-size:26px;line-height:50px;text-transform:uppercase;text-shadow:0 1px 0 #fff}
+.container .content .schedule .section .subtitle{width:940px;height:40px;font-family:bebasregular;font-weight:400;font-style:normal;color:#4e4e4e;font-size:16px;line-height:30px;text-shadow:0 -1px 0 #fff}
+.container .content .schedule .section .img{width:300px;height:200px;float:left}
+.container .content .schedule .section .copy{width:610px;height:170px;float:left;background:#fff;position:relative;font-family:Verdana, Geneva, sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:20px;color:#565656;padding:15px}
+.container .content .schedule .section .copy .link{width:auto;height:20px;position:absolute;bottom:15px;left:15px;font-family:Verdana, Geneva, sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:20px;color:#c84b27;text-decoration:underline}
+.twitt_container {width:650px;height:90px;display:none;}
+.twit_bird {width: 50px;height: 80px;padding: 10px 0 0;background:url(http://dev.jontaffer.com.vhost.zerolag.com/images/social/twitter-logo.png) no-repeat center center;float:left;}
+#twitter {width: 600px;height: 140px;z-index: 2;position: relative;padding: 10px 0 0;float:left;}
+#twitter-wrap{width:600px;text-align:left;font-family: Verdana, Geneva, sans-serif;font-weight:normal;text-decoration:none;font-style:italic;color:#fff;display:inline;}
+ul#twitter_update_list li{width:600px;font-size:14px;line-height:24px;text-align:left;list-style-type:none;}
+ul#twitter_update_list li a:hover{color:#C84B27;text-align:left}
+ul#twitter_update_list li p,ul#twitter_update_list li a{color:#C84B27;text-align:left}
+
+/*-------------------------------------------------------------------- Nivo Slider ------------------------------------------------------------------------*/
+.slider_wrapper{ width:970px; height:434px; overflow:hidden;position:relative;}
+.nivoSlider {position:relative; width:970px;height:434px;overflow:hidden;}
+.nivoSlider img {position:absolute;	top:0px;left:0px; display:none;}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;	margin:0;z-index:6;display:none;}
+/* The slices and boxes in the Slider */
+.nivo-slice {	display:block;position:absolute;z-index:5;height:100%;}
+.nivo-box {	display:block;position:absolute;z-index:5;}
+.nivo-caption {position:absolute;left:0px;bottom:0px;	background:#000;color:#fff;	opacity:0.8;width:100%;	z-index:8;}
+.nivo-caption p {padding:5px;margin:0;}
+.nivo-caption a {display:inline !important;}
+.nivo-html-caption {display:none;}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {position:absolute;top:45%;z-index:9;cursor:pointer;}
+.nivo-prevNav {left:0px;}
+.nivo-nextNav {right:0px;}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {position:absolute;right:20px;	bottom:20px;height:15px;width:100px;z-index:100;}
+
+.nivo-controlNav a {display:block;width:15px;height:15px;background: url(../..//wp-content/themes/twentytwelve/images/other/slider_dots.png);text-indent:-9999px;border:0;margin-left:5px;float:right;}
+.nivo-controlNav a:hover {background-position:0 -15px;}
+.nivo-controlNav a.active {background-position:0 -15px;}
+
+/*-------------------------------------------------------------------- Email Subscribe ------------------------------------------------------------------------*/
+.popup_subscribe{height:275px;width:400px;margin:-180px 0 0 -250px;padding:50px;position:fixed;top:50%;left:50%;z-index:9999	;background:url('/wp-content/themes/twentytwelve/images/subscribe/bg.jpg');box-shadow:0 0 10px #000;-moz-box-shadow:0 0 10px #000;-webkit-box-shadow:0 0 10px #000;}
+.popup_subscribe h1{margin:0 0 20px 0;background:#c84b27;float:left;padding:10px;font-family:'proximanovabold';color:#020101;text-transform:uppercase;}
+.popup_subscribe p{font-family:'ProximaNova';clear:left;color:#fff;font-size:16px;text-transform:uppercase;float:left;margin:20px 0;width:225px;}
+
+.rsVideoContainer{overflow:hidden;}
+
+
+/*-------------------------------------------------------------------- Media Gallery ------------------------------------------------------------------------*/
+.media_gallery{width:145px;height:130px;background:#000;float:left;margin:0 13px 13px 0;position:relative;}
+.media_gallery_photos_hover{height: 130px;opacity: 0;position: relative;top: -130px;width: 145px;cursor: pointer;background:rgba(200,75,39,0.8) url('/wp-content/themes/twentytwelve/images/photos/magnify.png') no-repeat center;opacity:0;-webkit-transition-property:background;-webkit-transition-duration:.2s, .2s;-webkit-transition-timing-function:linear, ease-in;-moz-transition-property:background;-moz-transition-duration:.2s;-moz-transition-timing-function:linear, ease-in;-o-transition-property:background;-o-transition-duration:.2s;-o-transition-timing-function:linear, ease-in}
+.media_gallery_photos_hover:hover{height: 130px;opacity: 1;position: relative;top: -130px;width: 145px;-webkit-transition-property:background;-webkit-transition-duration:.2s, .2s;-webkit-transition-timing-function:linear, ease-in;-moz-transition-property:background;-moz-transition-duration:.2s;-moz-transition-timing-function:linear, ease-in;-o-transition-property:background;-o-transition-duration:.2s;-o-transition-timing-function:linear, ease-in}
+.media_gallery_container{width:100%;position:relative;}
+.media_content{width:955px !important;height:auto;margin:0;padding-top:50px !important;overflow:hidden;position:relative !important; top:0px !important;}
+.video_content{width:955px !important;height:auto;margin:0;padding-top:50px !important;overflow:hidden;position:relative !important; top:0px !important;}
+
+
+.media_gallery_video{width:300px;height:162px;float:left;margin:0 18px 18px 0;position:relative;z-index:100;}
+.media_gallery_video_title{color: #fff;font-size: 24px;font-family:'bebasregular';height: 142px;opacity: 0;position: relative;top: -163px;padding: 10px;width: 280px;line-height:28px;z-index: 9999;background: rgba(200,75,39,0.8);cursor: pointer;-webkit-transition-property:background;-webkit-transition-duration:.2s, .2s;-webkit-transition-timing-function:linear, ease-in;-moz-transition-property:background;-moz-transition-duration:.2s;-moz-transition-timing-function:linear, ease-in;-o-transition-property:background;-o-transition-duration:.2s;-o-transition-timing-function:linear, ease-in}
+.media_gallery_video_title:hover{color: #fff;font-size: 24px;height: 142px;opacity: 1;position: relative;top: -163px;padding: 10px;text-transform: uppercase;line-height:28px;width: 280px;z-index: 10;overflow: hidden;cursor: pointer;-webkit-transition-property:background;-webkit-transition-duration:.2s, .2s;-webkit-transition-timing-function:linear, ease-in;-moz-transition-property:background;-moz-transition-duration:.2s;-moz-transition-timing-function:linear, ease-in;-o-transition-property:background;-o-transition-duration:.2s;-o-transition-timing-function:linear, ease-in}
+
+.subscribe_text{padding:0px;margin:0px;height:30px;line-height:14px;font-size:14px;border:none;float:left;padding:0 0 0 8px;outline:none;font-family:Verdana, Geneva, sans-serif;box-shadow:inset 0 0 7px #444;}
+.subscribe_btn{font-family:'proximanovabold'; text-transform:uppercase;background:#000;color:#662714;border:0;font-size:16px;height:30px;line-height:16px;float:left;margin:0;padding:0 22px;box-shadow:inset 0 1px 0 rgba(255,255,255,0.3);text-shadow:0 1px 0 rgba(255,255,255,0.1);background: #c64a27;background: -moz-linear-gradient(top,  #c64a27 0%, #682714 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c64a27), color-stop(100%,#682714));background: -webkit-linear-gradient(top,  #c64a27 0%,#682714 100%);background: -o-linear-gradient(top,  #c64a27 0%,#682714 100%);background: -ms-linear-gradient(top,  #c64a27 0%,#682714 100%);background: linear-gradient(to bottom,  #c64a27 0%,#682714 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c64a27', endColorstr='#682714',GradientType=0 );}
+.subscribe_btn:hover{cursor:pointer;background: #ad4123;background: -moz-linear-gradient(top,  #ad4123 0%, #682714 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ad4123), color-stop(100%,#682714));background: -webkit-linear-gradient(top,  #ad4123 0%,#682714 100%);background: -o-linear-gradient(top,  #ad4123 0%,#682714 100%);background: -ms-linear-gradient(top,  #ad4123 0%,#682714 100%);background: linear-gradient(to bottom,  #ad4123 0%,#682714 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad4123', endColorstr='#682714',GradientType=0 );}
+.popup_subscribe_close{height:36px;width:36px;position:absolute;top:0;right:0;float:right;background:url('/wp-content/themes/twentytwelve/images/other/fb_close.jpg')}
+#interVeil{ /*CSS for background veil that covers entire page while interstitial box is visible*/position: absolute;background: black url(blackdot.gif);right: 0;width: 10px;top: 0;z-index: 101;visibility: hidden;filter:progid:DXImageTransform.Microsoft.alpha(opacity=80);opacity: 0.8;}
+
+
+.fancybox-close{top:0 !important;right:0 !important;}
+
+/*-------------------------------------------------------------------- Products ------------------------------------------------------------------------*/
+.product{width:435px;height:300px;float:left;margin:0 0 15px 0;border-right:1px solid #eee;padding-right:15px;}
+.product_img{width:235px;height:300px;;float:left;}
+.product_right{width:190px;height:300px;float:left;padding-left:10px;}
+.product_title{width:180px;height:auto;min-height:25px;float:left;font-size:20px;padding:2px 10px;text-align:left;color:#343434;line-height:26px; font-family: bebasregular;margin-top:10px;word-spacing:2px;}
+.product_price{width:180px;height:15px;float:left;padding:5px 10px 0 10px;text-align:left;color:#343434;font-style:italic;}
+.product_desc{width:180px;height:120px;float:left;padding:10px;font-family: Verdana, Geneva, sans-serif;font-size:12px;line-height:20px;text-align:left}
+.product_btn{width:180px;height:80px;float:left;padding:0 10px;font-size:22px;text-align:center;}
+.product_note{width:100%;height:25px;color:#C84B27;float:left;padding-top:20px;font-family: Verdana, Geneva, sans-serif}
+
+
+.product_featured{width:920px;height:300px;float:left;margin:0 0 15px 0;border-right:1px solid #eee;padding-right:15px;}
+.product_featured_img{width:400px;height:307px;;float:left;}
+.product_featured_right{width:500px;height:300px;float:left}
+.product_featured_title{width:460px;height:auto;min-height:25px;float:left;font-size:30px;padding:2px 10px;text-align:left;color:#343434;line-height:24px; font-family: bebasregular;margin:10px 0 0 20px;word-spacing:4px;}
+.product_featured_price{width:460px;height:15px;float:left;padding:0 10px;text-align:left;color:#343434;font-style:italic;font-size:18px;margin:15px 0 0 20px;}
+.product_featured_desc{width:460px;height:130px;float:left;padding:10px;font-family: Verdana, Geneva, sans-serif;font-size:14px;margin:15px 0 0 20px;text-align:left}
+
+
+
+
+.addtocart, .addtocart_featured{width:auto;padding:8px 25px;float:left;color:#888;background:#eee;font-family:'bebasregular';font-size:14px;line-height:18px;word-spacing:3px;text-align:center;border:1px solid #ccc;background: #ededed;background: -moz-linear-gradient(top,  #ededed 0%, #c1c1c1 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#c1c1c1));background: -webkit-linear-gradient(top,  #ededed 0%,#c1c1c1 100%);background: -o-linear-gradient(top,  #ededed 0%,#c1c1c1 100%);background: -ms-linear-gradient(top,  #ededed 0%,#c1c1c1 100%);background: linear-gradient(to bottom,  #ededed 0%,#c1c1c1 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#c1c1c1',GradientType=0 );-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-text-shadow:0 1px 0 rgba(255,255,255,0.4);-moz-text-shadow:0 1px 0 rgba(255,255,255,0.4);text-shadow:0 1px 0 rgba(255,255,255,0.4);}
+.addtocart_featured{margin:0 0 0 20px;}
+.addtocart:hover, .addtocart_featured:hover{cursor:pointer;background:#ccc;background: -moz-linear-gradient(top,  #ccc 0%, #e1e1e1 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ccc), color-stop(100%,#e1e1e1));background: -webkit-linear-gradient(top,  #ccc 0%,#e1e1e1 100%);background: -o-linear-gradient(top,  #ccc 0%,#e1e1e1 100%);background: -ms-linear-gradient(top,  #ccc 0%,#e1e1e1 100%);background: linear-gradient(to bottom,  #ccc 0%,#e1e1e1 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#e1e1e1',GradientType=0 );}
+
+
+
+
+
+
