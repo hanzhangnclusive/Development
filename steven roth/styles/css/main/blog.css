@@ -1,0 +1,124 @@
+/* The box container div with id 456780 */
+div#rssincl-box-488504 {
+ width: 450px; /* sets the width of your RSSbox */
+ overflow-x: auto; /* sets a scrollbar if the content is larger than 350px */
+ padding-left: 10px;
+ padding-bottom: 10px;
+}
+
+/* All elements inside the box container */
+div#rssincl-box-488504 *{ 
+ font-family: "museo-slab",serif;
+ text-align:left; /* sets text-align to left for all elements*/
+ margin:0; /* sets margin to zero for all elements*/
+ padding:0px;
+ line-height:110%; /* sets the line-height a bit greater than normal*/
+ clear:both; /* no floating in general */
+ color: #ffffff;
+ font-size: 14px;
+}
+
+/* The div around the title */
+div#rssincl-box-488504 div.rssincl-head {
+ background-repeat:repeat-x; /* repeats the background image along the x-axis only*/
+ background-color: #cccccc; /* general background color when background image not shown*/
+}
+
+/* The <p> which contains the title of the box, and the <a> tag wrapped around the title (if used) */
+div#rssincl-box-488504 div.rssincl-head p.rssincl-title,
+div#rssincl-box-488504 div.rssincl-head p.rssincl-title a {
+ font-size: 18px; /* sets the font size of the title to 18px*/
+ font-weight:bold; /* and bold of course */
+ color: #cccccc; /* colors the title white */
+ text-decoration:none; /* no underline */
+ float: left;
+}
+
+/* The div around the content elements / news items */
+ div#rssincl-box-488504 div.rssincl-content {}
+
+/* The div around each news item */
+ div#rssincl-box-488504 div.rssincl-content div.rssincl-entry {
+ padding-bottom:10px; /* padding to 10px again */
+ background-repeat:repeat; /* image repeats along x-axis only */
+ background-color: ; /* background-color when image is not shown */
+ background-image:;
+ background-position: center center;
+ margin-bottom: 6px;
+ color: #ffffff;
+}
+
+/* The <p> tag containing the news item title */
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry p.rssincl-itemtitle {
+ font-family: "museo-slab",serif;
+ font-size: 14px;
+ line-height: 14px;
+ color: #ffffff;
+ text-align: left;
+}
+
+/* The <a> tag wrapped around the news item title */
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry p.rssincl-itemtitle a {
+ font-size: 14px; /* font size to 14px */
+ font-weight:bold; /* bold */
+ color: #ffffff;	 /* dark grey */
+}
+			
+/* Set a color for rolling over the item title*/
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry p.rssincl-itemtitle a:hover{
+ color:#cccccc; /* change font color to red on rollover */
+}
+
+/* The <p> tag containing the item description, and all elements inside this tag */
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry p.rssincl-itemdesc,
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry p.rssincl-itemdesc *{
+ width:450px;
+ float: left;
+ font-size: 14px; /* general font size 12px */
+ color: #cccccc;
+ font-family: Verdana, Geneva, sans-serif;
+ text-align: left;
+ }
+
+/* The <p> tag containing the item date, and all elements inside this tag */
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry p.rssincl-itemdate,
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry p.rssincl-itemdate *{
+ font-size: 12px; /* set date smaller than normal text */
+ color: #ffffff;
+ font-family: "athelas",serif;
+ text-align: center;
+}
+
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry p.rssincl-itemdate {
+ margin-bottom:10px; /* a bit of space below the date*/
+ font-family: "athelas",serif;
+ color: #ffffff;
+ font-style:italic;
+ font-weight: bold;
+ text-align: left;
+ width: 450px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+/* If there are images inside the description, you can style them as well */
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry div.rssincl-itemimage {
+ font-family:"athelas",serif;
+ color: #ffffff;
+ text-align: center;
+ float: left;
+}
+
+/* If there are images inside the description, you can style them as well */
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry div.rssincl-itemdesc img {
+ border:10px solid #900; /* no border for images inside description tag */
+ font-family:"athelas",serif;
+ color: #ffffff;
+ text-align: left;
+ float: left;
+}
+
+/* There is a clearer div which you can set to "clear:both"... */
+div#rssincl-box-488504 div.rssincl-content div.rssincl-entry div.rssincl-clear {
+ clear:both; /* important when using "float" for item elements */
+}
