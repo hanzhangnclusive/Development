@@ -33,10 +33,10 @@
 <script type="text/javascript" src="http://use.typekit.com/wdx7pwi.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-<script type="text/javascript" src="http://stevenrothmusic.com/styles/js/main/supersized.3.2.4.min.js"></script>
-<script type="text/javascript" src="http://stevenrothmusic.com/styles/js/main/supersized.shutter.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/twentytwelve/styles/js/main/supersized.3.2.4.min.js"></script>
+<script type="text/javascript" src="/wp-content/themes/twentytwelve/styles/js/main/supersized.shutter.min.js"></script>
 <script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
-<script>jQuery(function(e){e.supersized({slide_interval:4e3,transition_speed:1e3,transition:1,start_slide:1,slide_links:"blank",slides:[{image:"http://stevenrothmusic.com/images/bg-slider/1.jpg"},{image:"http://stevenrothmusic.com/images/bg-slider/2.jpg"},{image:"http://stevenrothmusic.com/images/bg-slider/3.jpg"}]})})</script>
+<script>jQuery(function(e){e.supersized({slide_interval:4e3,transition_speed:1e3,transition:1,start_slide:1,slide_links:"blank",slides:[{image:"/wp-content/themes/twentytwelve/images/bg-slider/1.jpg"},{image:"/wp-content/themes/twentytwelve/images/bg-slider/2.jpg"},{image:"/wp-content/themes/twentytwelve/images/bg-slider/3.jpg"}]})})</script>
 <script>$(document).ready(function(){$.stratus({color:"000000",auto_play:true,randomize:false,align:"top",links:"http://soundcloud.com/StevenRoth/last-song"})})</script>
 </head>
 

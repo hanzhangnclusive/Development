@@ -1,0 +1,181 @@
+@import url(theme.css);
+.sc-stratus {
+  display: none;
+  height: 30px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  text-align: left;
+  width: 100%;
+  z-index: 999; }
+  .sc-stratus * {
+    margin: 0;
+    padding: 0; }
+  .sc-stratus *:focus {
+    outline: none; }
+  .sc-stratus.stratus-bottom {
+    border-width: 1px 0 0 0;
+    top: 0px; }
+  .sc-stratus.stratus-top {
+    border-width: 0 0 1px 0;
+    top: 0px; }
+  .sc-stratus a, .sc-stratus a:hover, .sc-stratus a:focus {
+    background-color: transparent;
+    font-weight: normal;
+    outline: none;
+    text-decoration: none; }
+  .sc-stratus > div, .sc-stratus > a {
+    height: 30px;
+    position: absolute; }
+  .sc-stratus .sc-border {
+    width: 1px; }
+  .sc-stratus .sc-logo + .sc-border {
+    right: 45px; }
+  .sc-stratus .sc-volume + .sc-border {
+    right: 75px; }
+  .sc-stratus .sc-info + .sc-border {
+    right: 105px; }
+  .sc-stratus .sc-download + .sc-border {
+    right: 135px; }
+  .sc-stratus .sc-buy + .sc-border {
+    right: 165px; }
+  .sc-stratus .sc-logo, .sc-stratus .sc-volume, .sc-stratus .sc-info, .sc-stratus .sc-download, .sc-stratus .sc-buy, .sc-stratus .sc-prev, .sc-stratus .sc-next {
+    opacity: 0.9; }
+    .sc-stratus .sc-logo:hover, .sc-stratus .sc-volume:hover, .sc-stratus .sc-info:hover, .sc-stratus .sc-download:hover, .sc-stratus .sc-buy:hover, .sc-stratus .sc-prev:hover, .sc-stratus .sc-next:hover {
+      opacity: 1.0; }
+    .sc-stratus .sc-logo.disabled, .sc-stratus .sc-logo.disabled:hover, .sc-stratus .sc-volume.disabled, .sc-stratus .sc-volume.disabled:hover, .sc-stratus .sc-info.disabled, .sc-stratus .sc-info.disabled:hover, .sc-stratus .sc-download.disabled, .sc-stratus .sc-download.disabled:hover, .sc-stratus .sc-buy.disabled, .sc-stratus .sc-buy.disabled:hover, .sc-stratus .sc-prev.disabled, .sc-stratus .sc-prev.disabled:hover, .sc-stratus .sc-next.disabled, .sc-stratus .sc-next.disabled:hover {
+      opacity: 0.2; }
+  .sc-stratus .sc-logo, .sc-stratus .sc-volume, .sc-stratus .sc-info, .sc-stratus .sc-download, .sc-stratus .sc-buy {
+    cursor: pointer;
+    display: block;
+    width: 30px; }
+    .sc-stratus .sc-logo.disabled, .sc-stratus .sc-logo.disabled:hover, .sc-stratus .sc-volume.disabled, .sc-stratus .sc-volume.disabled:hover, .sc-stratus .sc-info.disabled, .sc-stratus .sc-info.disabled:hover, .sc-stratus .sc-download.disabled, .sc-stratus .sc-download.disabled:hover, .sc-stratus .sc-buy.disabled, .sc-stratus .sc-buy.disabled:hover {
+      cursor: default; }
+  .sc-stratus .sc-logo {
+    right: 0px;
+    width: 45px; }
+  .sc-stratus .sc-volume {
+    right: 45px; }
+    .sc-stratus .sc-volume, .sc-stratus .sc-volume.max {
+      background-position: -200px 0px; }
+    .sc-stratus .sc-volume.high {
+      background-position: -200px -30px; }
+    .sc-stratus .sc-volume.low {
+      background-position: -200px -60px; }
+    .sc-stratus .sc-volume.min {
+      background-position: -200px -90px; }
+  .sc-stratus .sc-info {
+    background-position: 0px -30px;
+    right: 75px; }
+  .sc-stratus .sc-download {
+    background-position: 0px -60px;
+    right: 105px; }
+  .sc-stratus .sc-buy {
+    background-position: 0px -90px;
+    right: 135px; }
+  .sc-stratus .sc-controls {
+    top: 5px;
+    width: 60px; }
+    .sc-stratus .sc-controls, .sc-stratus .sc-controls div {
+      height: 20px; }
+    .sc-stratus .sc-controls div {
+      cursor: pointer;
+      position: absolute;
+      width: 20px; }
+    .sc-stratus .sc-controls .sc-prev {
+      background-position: -100px 0px; }
+    .sc-stratus .sc-controls .sc-circle {
+      border-radius: 20px;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px;
+      left: 20px;
+      width: 20px; }
+      .sc-stratus .sc-controls .sc-circle .sc-play {
+        background-position: -100px -40px; }
+      .sc-stratus .sc-controls .sc-circle .sc-pause {
+        background-position: -100px -60px;
+        display: none; }
+    .sc-stratus .sc-controls .sc-next {
+      background-position: -100px -20px;
+      left: 40px; }
+  .sc-stratus.playing .sc-controls .sc-play {
+    display: none; }
+  .sc-stratus.playing .sc-controls .sc-pause {
+    display: block; }
+  .sc-stratus .sc-time {
+    left: 60px;
+    overflow: hidden;
+    top: 5px; }
+    .sc-stratus .sc-time, .sc-stratus .sc-time > div {
+      height: 20px; }
+    .sc-stratus .sc-time, .sc-stratus .sc-time img {
+      width: 180px; }
+    .sc-stratus .sc-time > div {
+      position: absolute; }
+    .sc-stratus .sc-time img {
+      height: 44px; }
+    .sc-stratus .sc-time .sc-wave {
+      height: 40px;
+      width: 100%;
+      z-index: 10; }
+    .sc-stratus .sc-time .sc-played {
+      z-index: 8; }
+    .sc-stratus .sc-time .sc-buffer {
+      z-index: 7; }
+  .sc-stratus .sc-time-indicator, .sc-stratus .sc-caption {
+    cursor: default;
+    line-height: 30px; }
+  .sc-stratus .sc-time-indicator {
+    right: 175px;
+    text-align: right;
+    width: 90px; }
+  .sc-stratus .sc-caption {
+    left: 250px; }
+
+.sc-trackslist {
+  display: none; }
+
+.sc-volume-bar {
+  background-position: 0px -150px;
+  display: none;
+  right: 45px;
+  position: fixed;
+  width: 29px;
+  z-index: 1000; }
+  .sc-volume-bar.stratus-bottom {
+    bottom: 30px;
+    border-top-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    border-width: 1px 1px 0 1px;
+    height: 123px; }
+  .sc-volume-bar.stratus-top {
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    border-width: 0 1px 1px 1px;
+    height: 130px;
+    top: 30px; }
+  .sc-volume-bar .sc-slider {
+    height: 77px;
+    margin: 37px 0 0 11px;
+    position: relative;
+    width: 8px; }
+    .sc-volume-bar .sc-slider .ui-slider-handle {
+      background-color: transparent;
+      background-position: -200px -120px;
+      cursor: pointer;
+      height: 15px;
+      position: absolute;
+      width: 8px;
+      z-index: 2; }
+      .sc-volume-bar .sc-slider .ui-slider-handle:focus {
+        cursor: pointer;
+        outline: none; }
+
+.sc-player-engine-container {
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  top: 2px;
+  left: 2px; }

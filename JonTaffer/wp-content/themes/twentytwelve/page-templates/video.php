@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Media
+ * Template Name: Video
  *
  * Description: Twenty Twelve loves the no-sidebar look as much as
  * you do. Use this page template to remove the sidebar from any page.
@@ -32,7 +32,7 @@ get_header(); ?>
 <div class="content" style="height:800px;">
 <div class="media"> 
   <div class="media_top">
-  <a href="/media/" class="media_button" style="text-decoration:none;" id="mbtn_1">PHOTOS</a>
+  <a href="/media1/" class="media_button" style="text-decoration:none;" id="mbtn_1">PHOTOS</a>
      <a href="/video/"class="media_button_active" id="mbtn_2" style="margin-left:15px; text-decoration:none;">VIDEOS</a></div>
   
   <div class="media_content" id="mcontent_1">

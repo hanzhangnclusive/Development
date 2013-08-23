@@ -32,7 +32,7 @@ get_header(); ?>
 <div class="content" style="height:auto;">
 <div class="media"> 
   <div class="media_top">
-    <a href="/media/" class="media_button_active" style="text-decoration:none;" id="mbtn_1">PHOTOS</a>
+    <a href="/media1/" class="media_button_active" style="text-decoration:none;" id="mbtn_1">PHOTOS</a>
      <a href="/video/"class="media_button" id="mbtn_2" style="margin-left:15px; text-decoration:none;">VIDEOS</a></div>
   
   <div class="media_content" id="mcontent_1">

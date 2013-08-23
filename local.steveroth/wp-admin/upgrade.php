@@ -23,19 +23,17 @@ timer_start();
 require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
 
 delete_site_transient('update_core');
-/*
+
 if ( isset( $_GET['step'] ) )
 	$step = $_GET['step'];
 else
 	$step = 0;
-*/
-$step = "upgrade_db";
+
 // Do it. No output.
-if ( 'upgrade_db' === $step  ) {
+if ( 'upgrade_db' === $step ) {
 	wp_upgrade();
 	die( '0' );
 }
-
 
 $step = (int) $step;
 
@@ -60,7 +58,7 @@ else
 	?>
 </head>
 <body class="wp-core-ui">
-<h1 id="logo"><a href="<?php esc_attr_e( 'http://wordpress.org/' ); ?>"><?php _e( 'WordPress' ); ?></a></h1>
+<h1 id="logo"><a href="<?php echo esc_url( __( 'http://wordpress.org/' ) ); ?>"><?php _e( 'WordPress' ); ?></a></h1>
 
 <?php if ( get_option( 'db_version' ) == $wp_db_version || !is_blog_installed() ) : ?>
 
@@ -79,7 +77,7 @@ else
 <?php else :
 switch ( $step ) :
 	case 0:
-		$goback = stripslashes( wp_get_referer() );
+		$goback = wp_get_referer();
 		$goback = esc_url_raw( $goback );
 		$goback = urlencode( $goback );
 ?>
@@ -92,7 +90,7 @@ switch ( $step ) :
 	case 1:
 		wp_upgrade();
 
-			$backto = !empty($_GET['backto']) ? stripslashes( urldecode( $_GET['backto'] ) ) : __get_option( 'home' ) . '/';
+			$backto = !empty($_GET['backto']) ? wp_unslash( urldecode( $_GET['backto'] ) ) : __get_option( 'home' ) . '/';
 			$backto = esc_url( $backto );
 			$backto = wp_validate_redirect($backto, __get_option( 'home' ) . '/');
 ?>

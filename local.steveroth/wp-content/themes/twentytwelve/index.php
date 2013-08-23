@@ -14,53 +14,39 @@
  * @since Twenty Twelve 1.0
  */
 
-get_header(); ?>
+ ?>
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
-		<?php if ( have_posts() ) : ?>
+<body onload="MM_preloadImages('/wp-content/themes/twentytwelve/images/social/facebook_down.jpg','/wp-content/themes/twentytwelve/images/social/twitter_down.jpg','/wp-content/themes/twentytwelve/images/social/youtube_down.jpg','/wp-content/themes/twentytwelve/images/social/soundcloud_down.jpg','/wp-content/themes/twentytwelve/images/social/myspace_down.jpg')">
+<link rel="stylesheet" href="/wp-content/themes/twentytwelve/styles/css/main/design.css" type="text/css" />
+<div id="wrapper">
+<div id="content">
+<div id="space"></div>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-slider.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-video.php'); ?>
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'content', get_post_format() ); ?>
-			<?php endwhile; ?>
 
-			<?php twentytwelve_content_nav( 'nav-below' ); ?>
+<div id="tours">
 
-		<?php else : ?>
 
-			<article id="post-0" class="post no-results not-found">
+<div id="split_sections" style="margin-top:19px;">
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-facebook.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-twitter.php'); ?>
+</div>
 
-			<?php if ( current_user_can( 'edit_posts' ) ) :
-				// Show a different message to a logged-in user who can add posts.
-			?>
-				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'No posts to display', 'twentytwelve' ); ?></h1>
-				</header>
 
-				<div class="entry-content">
-					<p><?php printf( __( 'Ready to publish your first post? <a href="%s">Get started here</a>.', 'twentytwelve' ), admin_url( 'post-new.php' ) ); ?></p>
-				</div><!-- .entry-content -->
+<div id="split_sections" style="margin-top:48px;">
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-blog.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-store.php'); ?>
+</div>
 
-			<?php else :
-				// Show the default message to everyone else.
-			?>
-				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'Nothing Found', 'twentytwelve' ); ?></h1>
-				</header>
+</div>
+<div id="title1" style="background-image:url(/wp-content/themes/twentytwelve/images/titles/instagram.png);background-position:center center;background-repeat:no-repeat;"></div>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/instagram.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/footer.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/header.php'); ?>
 
-				<div class="entry-content">
-					<p><?php _e( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'twentytwelve' ); ?></p>
-					<?php get_search_form(); ?>
-				</div><!-- .entry-content -->
-			<?php endif; // end current_user_can() check ?>
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-11237348-29"]);_gaq.push(["_trackPageview"]);(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()</script>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/js.php'); ?>
 
-			</article><!-- #post-0 -->
 
-		<?php endif; // end have_posts() check ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+</body>

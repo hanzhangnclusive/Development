@@ -1,0 +1,30 @@
+.sc-stratus {
+  background-color: #efefef;
+  border-color: #d5d5d5;
+  border-style: solid;
+  color: #6a6a6a;
+  font: normal normal 12px 'Lucida Grande', Helvetica, Arial, sans-serif; }
+  .sc-stratus a {
+    color: #ed1c24; }
+  .sc-stratus .sc-border {
+    background-color: #d5d5d5; }
+  .sc-stratus .sc-logo, .sc-stratus .sc-volume, .sc-stratus .sc-info, .sc-stratus .sc-download, .sc-stratus .sc-buy, .sc-stratus .sc-prev, .sc-stratus .sc-next, .sc-stratus .sc-play, .sc-stratus .sc-pause {
+    background-image: url("../../../images/bg/stratus/sc-sprites.png"); }
+  .sc-stratus .sc-circle, .sc-stratus .sc-time, .sc-stratus .sc-played, .sc-stratus .sc-buffer {
+    background-image: url("../../../images/bg/stratus/sc-gradient.png");
+    background-repeat: repeat-x; }
+  .sc-stratus .sc-circle {
+    background-color: #ed1c24; }
+  .sc-stratus .sc-time {
+    background-color: #d5d5d5; }
+    .sc-stratus .sc-time .sc-played {
+      background-color: #ed1c24; }
+    .sc-stratus .sc-time .sc-buffer {
+      background-color: #afafaf; }
+
+.sc-volume-bar {
+  background-color: #efefef;
+  border-color: #d5d5d5;
+  border-style: solid; }
+  .sc-volume-bar, .sc-volume-bar .ui-slider-handle {
+    background-image: url("../../../images/bg/stratus/sc-sprites.png"); }
