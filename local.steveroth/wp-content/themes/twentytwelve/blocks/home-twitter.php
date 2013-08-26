@@ -1,4 +1,4 @@
-<div id="split_sections_side">
+<div id="split_sections_side" class="right">
 	<div id="split_sections_side_title" style="background-image:url(/wp-content/themes/twentytwelve/images/titles/twitter.png);background-position:center center;background-repeat:no-repeat;"></div>
 	<div id="split_sections_side_box">
 		<a href="http://twitter.com/#!/StevenRothMusic" target="_blank">

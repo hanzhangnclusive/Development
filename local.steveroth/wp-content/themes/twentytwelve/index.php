@@ -29,15 +29,13 @@
 
 
 <div id="split_sections" style="margin-top:19px;">
-<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-facebook.php'); ?>
-<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-twitter.php'); ?>
-</div>
-
-
-<div id="split_sections" style="margin-top:48px;">
-<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-blog.php'); ?>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-store.php'); ?>
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/wp-content/themes/twentytwelve/blocks/home-twitter.php'); ?>
+
 </div>
+
+
 
 </div>
 <div id="title1" style="background-image:url(/wp-content/themes/twentytwelve/images/titles/instagram.png);background-position:center center;background-repeat:no-repeat;"></div>
