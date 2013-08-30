@@ -5,8 +5,6 @@ $this->start_element('nextgen_gallery.gallery_container', 'container', $displaye
 ?>
 
 
-    
-
 	<?php
 
 	$this->start_element('nextgen_gallery.image_list_container', 'container', $images);

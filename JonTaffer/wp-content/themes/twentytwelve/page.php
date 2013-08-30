@@ -15,6 +15,7 @@
 get_header(); ?>
 
 <link rel="stylesheet" href="/wp-content/themes/twentytwelve/css/design.css" type="text/css" />
+
 <body>
 
 <div id="fb-root"></div>

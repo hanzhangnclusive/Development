@@ -1,0 +1,45 @@
+@font-face {
+		font-family: 'Gotham';
+		src: url('/wp-content/themes/twentythirteen/fonts/gotham-book.eot');
+		src: url('/wp-content/themes/twentythirteen/fonts/gotham-book.eot?#iefix') format('embedded-opentype'),
+				 url('/wp-content/themes/twentythirteen/fonts/gotham-book.woff') format('woff'),
+				 url('/wp-content/themes/twentythirteen/fonts/gotham-book.ttf') format('truetype'),
+				 url('/wp-content/themes/twentythirteen/fonts/gotham-book.svg#gotham-book') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face {
+		font-family: 'Gotham';
+		src: url('/wp-content/themes/twentythirteen/fonts/gotham-bold.eot');
+		src: url('/wp-content/themes/twentythirteen/fonts/gotham-bold.eot?#iefix') format('embedded-opentype'),
+				 url('/wp-content/themes/twentythirteen/fonts/gotham-bold.woff') format('woff'),
+				 url('/wp-content/themes/twentythirteen/fonts/gotham-bold.ttf') format('truetype'),
+				 url('/wp-content/themes/twentythirteen/fonts/gotham-bold.svg#gotham-book') format('svg');
+		font-weight: bold;
+		font-style: normal;
+}
+
+@font-face {
+    font-family: 'UniversCondensed';
+    src: url('/wp-content/themes/twentythirteen/fonts/univers_light_condensed-webfont.eot');
+    src: url('/wp-content/themes/twentythirteen/fonts/univers_light_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/twentythirteen/fonts/univers_light_condensed-webfont.woff') format('woff'),
+         url('/wp-content/themes/twentythirteen/fonts/univers_light_condensed-webfont.ttf') format('truetype'),
+         url('/wp-content/themes/twentythirteen/fonts/univers_light_condensed-webfont.svg#UniversLightCondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'UniversCondensed';
+    src: url('/wp-content/themes/twentythirteen/fonts/univers_bold_condensed-webfont.eot');
+    src: url('/wp-content/themes/twentythirteen/fonts/univers_bold_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/wp-content/themes/twentythirteen/fonts/univers_bold_condensed-webfont.woff') format('woff'),
+         url('/wp-content/themes/twentythirteen/fonts/univers_bold_condensed-webfont.ttf') format('truetype'),
+         url('/wp-content/themes/twentythirteen/fonts/univers_bold_condensed-webfont.svg#UniversLightCondensedRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
